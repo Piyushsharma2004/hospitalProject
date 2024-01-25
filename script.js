@@ -58,7 +58,7 @@ function testNowBtn() {
     // Create heading
     let heading = document.createElement('h1');
     heading.classList.add("Anaemia-main-loading-page-1-intro-card-heading");
-    heading.textContent = "Anamia Test Using AI/ML";
+    heading.textContent = "Anemia Test Using AI/ML";
     classIntroDivAdd.appendChild(heading);
   
     // Create image
