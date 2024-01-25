@@ -1,0 +1,516 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+/* Navbar design moble,tablet laptop device Start Navbar  */
+.Anaemia-home-page-navbar-mobile {
+  height: 60px;
+  background-color: #fff;
+}
+
+.Anaemia-home-page-navbar-menu {
+  text-align-last: right;
+  padding-top: 19px;
+}
+
+.Anaemia-home-page-navbar-logo-img {
+  height: 35px;
+  margin-top: 12px;
+  background-image: url("");
+}
+
+.Anaemia-home-page-navbar-search {
+  text-align-last: right;
+  padding-top: 17px;
+}
+
+.Anaemia-home-page-navbar-login {
+  padding-top: 17px;
+  text-align-last: right;
+}
+
+.Anaemia-home-page-navbar-button-div {
+  padding-top: 2%;
+}
+
+.Anaemia-home-page-navbar-button {
+  height: 90%;
+
+  font-size: 14px;
+  line-height: 18px;
+}
+
+/*side bar and manu icon design start*/
+#toggle {
+  display: none;
+}
+
+.slidebar {
+  margin-top: 60px;
+}
+
+#toggle:checked + label span:nth-of-type(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+#toggle:checked + label span:nth-of-type(2) {
+  opacity: 0;
+}
+
+#toggle:checked + label span:nth-of-type(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+span {
+  display: block;
+  background-color: black;
+  height: 3px;
+  width: 25px;
+  margin-bottom: 5px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/*side bar and manu icon design start*/
+/* side bar fully design */
+.Anaemia-home-page-side-bar-text {
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.side-bar-ul-text {
+  border: none;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(14, 55, 86);
+  font-family: Arial;
+}
+
+.side-bar-ul-text:hover {
+  color: #0c52b5;
+}
+
+.side-bar-bl-text {
+  font-family: Arial;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(14, 55, 86);
+}
+
+.side-bar-bl-text:hover {
+  color: #0c52b5;
+}
+
+/*Anaemia-home-page-navbar-laptop-menu*/
+.Anaemia-home-page-navbar-laptop {
+  height: 80px;
+  padding: 10px;
+  background-color: #fff;
+
+}
+
+.laptop-menu-texr {
+  margin-left: 30px;
+  padding-top: 20px;
+}
+
+.Anaemia-home-page-navbar-laptop-menu-text {
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(14, 55, 86);
+  font-family: Arial;
+}
+
+.Anaemia-home-page-navbar-laptop-menu-text:hover {
+  color: #0c52b5;
+}
+
+.Anaemia-home-page-navbar-laptop-menu-icon-img {
+  height: 50px;
+  width: 70px;
+  margin-top: 10px;
+}
+
+.Anaemia-home-page-navbar-laptop-user-text {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(14, 55, 86);
+  font-family: Arial;
+}
+
+.Anaemia-home-page-navbar-laptop-user-text:hover {
+  color: #0c52b5;
+}
+
+.Anaemia-home-page-navbar-laptop-menu-div {
+  background-color: #fff;
+  height: 60px;
+  color: #5b5b5b;
+}
+
+/* Navbar design moble,tablet laptop device Start Navbar  */
+.Anaemia-main-loading-page{
+    background-image: url("/assets/main_loading-bg.jpg");
+    background-size: cover;
+    height: 100vh;
+
+}
+.Anaemia-main-loading-page-div-heading{
+    height: 100vh;
+    text-align: center;
+}
+.Anaemia-main-loading-page-div-heading-1{
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+.Anaemia-main-loading-page-div-heading-btn{
+    height: 50px;
+    width: 220px;
+    background-color: #086fff;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 35%;
+    margin-top: 4%;
+
+    
+}
+.Anaemia-main-loading-page-div-heading-pera{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.Anaemia-main-loading-page-div-heading-btn:hover{
+    background-color: #0c52b5;
+    cursor: pointer;
+}
+/*page 2 intro */
+.Anaemia-main-loading-page-1-intro{
+  background-color: rgb(143, 200, 197);
+  height: 100vh;
+  padding-top:10%;
+}
+.Anaemia-main-loading-page-1-intro-card{
+  height: 560px;
+  width: 500px;
+  background-color: white;
+  border-radius: 10%;
+  padding: 30px;
+  margin-left: 33%;
+  
+}
+.Anaemia-main-loading-page-1-intro-card-heading{
+  font-size: 32px;
+  font-weight: 500;
+
+  font-family: 'Roboto', sans-serif;
+}
+.into-card-1-img{
+ width: auto;
+ padding-top: 10px;
+ padding-left: 40px;
+ border-radius: 40px;
+ height: 350px;
+
+}
+.Anaemia-main-loading-page-1-intro-card-details{
+  font-size: 20px;
+  padding-top: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.Intro-nextButton{
+  margin-left: 73%;
+
+}
+.camera-img{
+  width: 100%;
+}
+.camera-info{
+  padding-top: 10px;
+  padding-left: 30%;
+  font-size: 20px;
+  color: red;
+  font-family: 'Roboto', sans-serif;
+
+}
+.click-btn{
+  margin-top: 20px;
+}
+.result-btn{
+  margin-top: 70px;
+}
+.test-result-page{
+  background-color: rgb(143, 200, 197);
+  height: 100vh;
+  padding-top:10%;
+
+}
+.test-result-page-card{
+  height: 400px;
+  width: 500px;
+  background-color: white;
+  border-radius: 10%;
+  padding: 30px;
+  margin-left: 33%;
+}
+.gear-icon{
+  padding-left: 25%;
+  padding-top: 10%;
+}
+.processing-icon{
+margin-left: 45%;
+margin-top: 20px;
+}
+.test-result-page-card-heading{
+  font-size: 28px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(8, 111, 255);
+  padding-top: 30px;
+}
+.test-result-page-card-1{
+  height: 500px;
+  width: 500px;
+  background-color: white;
+  border-radius: 10%;
+  padding: 30px;
+  margin-left: 33%;
+}
+.blood-img{
+  width: 400px;
+}
+.safe-logo{
+  width: 150px;
+  margin-left: 30%;
+}
+.show-result-safe{
+  color: rgb(0, 210, 0);
+  padding-left: 25%;
+
+
+}
+.show-result-danger{
+  color: rgb(255, 3, 3);
+  padding-left: 20%;
+}
+.danger-logo{
+  width: 150px;
+  margin-left: 30%;
+}
+
+.test-result-page-card-thanks{
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+
+}
+/*page 2 intro */
+
+.anaemia-section-2-video {
+  padding-left: 0px;
+  
+}
+.anaemia-section-2-video-2 {
+  width: 100%;
+  margin: 0px;
+}
+.anaemia-section-2-video-div {
+  position: absolute;
+  left: 35%;
+  margin-top: -80px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 1;
+ 
+}
+.anaemia-section-2-video-div h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.anaemia-section-2-video-div p {
+  font-size: 14px;
+  font-weight: 500;
+}
+.anaemia-section-2-box {
+  padding-top: 4%;
+  padding-left: 30px;
+  background-color: rgb(255, 255, 255);
+}
+.anaemia-section-2-box-btn {
+  padding-top: 70%;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.blue-car-section-white-box-btn-5 {
+  width: 100%;
+  height: 40px;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  font-size: 20ox;
+  border: solid 3px #393c41;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 16.5px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.blue-car-section-white-box-btn-5:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.blue-car-section-white-box-btn-5-1 {
+  width: 250px;
+  height: 40px;
+  color: #ffffff;
+  background-color: transparent;
+  font-size: 20ox;
+  border: solid 3px #ffffff;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 16.5px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+.blue-car-section-white-box-btn-5-1:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.blue-car-section-white-box-btn-6 {
+  width: 100%;
+  margin-top: 4%;
+  height: 40px;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.1);
+
+  border: none;
+  border-radius: 3px;
+
+  text-align: center;
+  line-height: 16.5px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.go-any-where-section-box-btn-1 {
+  padding-top: 70%;
+}
+.hardware-section {
+  height: 100vh;
+}
+
+/* footer section starts */
+.footer {
+  min-height: auto;
+  padding-top: 0;
+  background: rgb(6, 142, 135);
+}
+.footer .box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footer .box-container .box {
+  flex: 1 1 25rem;
+  margin: 2.5rem;
+}
+.footer .box-container .box h3 {
+  font-size: 33px;
+  color: #fff;
+  padding-bottom: 0px;
+  font-weight: normal;
+}
+.footer .box-container .box p {
+  font-size: 20px;
+  color: #ccc;
+  padding: 5px 0;
+  text-transform: none;
+}
+.footer .box-container .box p i {
+  padding-right: 18px;
+  color: blue;
+}
+.footer .box-container .box a {
+  font-size:24px;
+  color: rgb(238, 238, 238);
+  padding: 0.3rem 0;
+  display: block;
+}
+.footer .box-container .box a:hover {
+  color: blue;
+}
+.footer .box-container .box .share {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+.footer .box-container .box .share a {
+  height: 4rem;
+  width: 4rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 5rem;
+  font-size: 1.7rem;
+  margin-right: 1rem;
+  transition: 0.2s;
+  background: rgb(230, 230, 230);
+  color: #02094b;
+  border: none;
+}
+.footer .box-container .box .share a:hover {
+  background: transparent;
+  transform: scale(0.98);
+  border: 0.1rem solid rgb(180, 178, 178);
+  color: blue;
+}
+.footer .credit {
+  padding: 1rem 0 0 0;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  border-top: 0.1rem solid #fff3;
+}
+
+@-webkit-keyframes pound {
+  to {
+    transform: scale(1.1);
+  }
+}
+@keyframes pound {
+  to {
+    transform: scale(1.1);
+  }
+}
+@media (max-width: 450px) {
+  .footer .box-container .box {
+    margin: 1.5rem;
+  }
+  .footer .box-container .box p {
+    padding: 0.7rem;
+  }
+  .footer .box-container .box .share a {
+    padding: 1.2rem;
+  }
+}
+/* footer section ends */
